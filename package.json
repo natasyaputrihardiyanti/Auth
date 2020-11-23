@@ -1,0 +1,22 @@
+{
+  "name": "api-crud",
+  "version": "1.0.0",
+  "description": "1. Clone / Download repo ini\r 2. Masuk ke folder repo ini. Ex: `cd api-crud`\r 3. Instal node module dengan command `npm install`\r 4. Jalankan aplikasi dengan command `node server` atau `nodemon server`",
+  "main": "conn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.2",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "md5": "^2.3.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1"
+  }
+}
